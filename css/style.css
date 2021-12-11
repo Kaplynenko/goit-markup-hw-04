@@ -339,6 +339,8 @@ img {
   padding: 0;
   justify-content: space-between;
   text-align: start;
+}
+.cards-worker .card-img {
   background-color: var(--primery-background);
 }
 .card-img img {
