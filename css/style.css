@@ -570,10 +570,10 @@ ul {
   fill: var(--primery-background);
   background-color: var(--accent-color);
 }
-.cocial .icon-link + .icon-link {
+.social .icon-link + .icon-link {
   margin-left: 10px;
 }
-.cards-worker .cocial {
+.cards-worker .social {
   display: flex;
   justify-items: center;
   padding: 0 0 30px 0;
