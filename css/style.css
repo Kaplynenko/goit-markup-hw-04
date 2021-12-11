@@ -122,6 +122,8 @@ body {
   margin-left: 300px;
 }
 .contacts-nav {
+  display: flex;
+  align-items: center;
   font-size: 14px;
   line-height: 1.14;
   font-weight: 500;
@@ -129,18 +131,18 @@ body {
 }
 .contact-icon .link {
   display: flex;
+  align-items: center;
 }
 
 .link > svg {
   width: 16px;
 }
 .contacts {
-  align-items: baseline;
   flex-wrap: nowrap;
+  align-items: center;
 }
 .contacts .link {
   color: var(--main-content-color);
-  align-items: baseline;
 }
 .link .mail {
   margin-right: 10px;
@@ -248,10 +250,12 @@ body {
   text-align: start;
 }
 .specification {
+  display: flex;
+  justify-content: center;
   height: 120px;
   border-radius: 4px;
   background-color: var(--section-cards);
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 .specification > svg {
   width: 70px;
@@ -335,6 +339,7 @@ img {
   padding: 0;
   justify-content: space-between;
   text-align: start;
+  background-color: var(--primery-background);
 }
 .card-img img {
   padding-bottom: 30px;
@@ -348,7 +353,7 @@ img {
 /* footer */
 .container.soc-footer {
   display: flex;
-  align-items: flex-start;
+  align-items: baseline;
   justify-content: flex-start;
 }
 .logo-ft .logo {
@@ -433,7 +438,6 @@ img {
   flex-direction: column;
   justify-items: flex-start;
   margin-left: 70px;
-  margin-top: 12px;
 }
 /* скрытый заголовок в portfolio */
 
