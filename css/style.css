@@ -255,7 +255,7 @@ body {
   height: 120px;
   border-radius: 4px;
   background-color: var(--section-cards);
-  /* margin-bottom: 30px; */
+  margin-bottom: 30px;
 }
 .specification > svg {
   width: 70px;
